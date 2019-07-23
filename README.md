@@ -40,7 +40,7 @@ sudo apt-get install -y python-dev python-numpy
 ### How to install?
 Clone the repo into your Raspberry Pi and install all debs:
 ```
-git clone https://github.com/dlime/Faster_OpenCV_4_Raspberry_Pi.git
+git clone https://github.com/Mash94/RaspberryPi3B_Modules_Installed.git
 cd Faster_OpenCV_4_Raspberry_Pi/debs
 sudo dpkg -i OpenCV*.deb
 sudo ldconfig
