@@ -1,5 +1,5 @@
 # Raspberry Pi 3B - Raspbian Buster
-I'm newbie on Raspberry and fork this repo for save all modules that I has used on Raspberry and works it.
+I'm newbie on Raspberry and fork this repo for save all modules that I have used on Raspberry and they work.
 
 ## Matplot 
 sudo apt-get install python-matplotlib
