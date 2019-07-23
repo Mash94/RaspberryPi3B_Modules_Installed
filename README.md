@@ -2,7 +2,9 @@
 I'm newbie on Raspberry and fork this repo for save all modules that I have used on Raspberry and they work.
 
 ## Matplot 
+```
 sudo apt-get install python-matplotlib
+```
 
 ## Faster OpenCV
 Leverage all your CPUs power in OpenCV by using **TBB**, **Neon** and **VFPV3** libraries.
