@@ -7,16 +7,26 @@ Install if necessary through
 sudo apt-get install wpasupplicant
 
 ```
-
+After that, open wpa_supplicant file:
 ```
 sudo nano /etc/wpa_supplicant/wpa_supplicant.conf
 ```
 ```
 network={
-    ssid="ssid_name"
-    psk="password"
+    ssid="HomeOneSSID"
+    psk="passwordOne"
+    priority=1
+    id_str="homeOne"
+}
+
+network={
+    ssid="HomeTwoSSID"
+    psk="passwordTwo"
+    priority=2
+    id_str="homeTwo"
 }
 ```
+By last update wifi networks setting
 ```
 sudo wpa_supplicant -B -i wlan0 -c /etc/wpa_supplicant/wpa_supplicant.conf -D wext
 sudo dhclient wlan0
