@@ -1,6 +1,28 @@
 # Raspberry Pi 3B - Raspbian Buster
 I'm newbie on Raspberry and fork this repo for save all modules that I have used on Raspberry and they work.
 
+## WIFI
+Install if necessary through
+```
+sudo apt-get install wpasupplicant
+
+```
+
+```
+sudo nano /etc/wpa_supplicant/wpa_supplicant.conf
+```
+```
+network={
+    ssid="ssid_name"
+    psk="password"
+}
+```
+```
+sudo wpa_supplicant -B -i wlan0 -c /etc/wpa_supplicant/wpa_supplicant.conf -D wext
+sudo dhclient wlan0
+```
+
+
 ## Matplot 
 ```
 sudo apt-get install python-matplotlib
