@@ -60,6 +60,7 @@ Another performance test is available [here](https://www.theimpossiblecode.com/b
 Install OpenCV library prerequisites on your Raspberry Pi.
 ```
 sudo apt-get update && sudo apt-get upgrade -y
+    sudo apt-get update --fix-missing
 sudo apt-get install -y libjpeg-dev libpng-dev libtiff-dev libgtk-3-dev
 sudo apt-get install -y libavcodec-extra libavformat-dev libswscale-dev libv4l-dev
 sudo apt-get install -y	libxvidcore-dev libx264-dev libjasper1 libjasper-dev
