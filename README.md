@@ -90,7 +90,7 @@ sudo ldconfig
 ##### C++
 Test the installation by going to tests cpp test folder, build it and launch the executable:
 ```
-cd Faster_OpenCV_4_Raspberry_Pi/tests/cpp_opencv_test
+cd RaspberryPi3B_Modules_Installed/tests/cpp_opencv_test
 mkdir build && cd build
 cmake ..
 make -j`cat /proc/cpuinfo | grep -c 'processor'`
@@ -100,7 +100,7 @@ make -j`cat /proc/cpuinfo | grep -c 'processor'`
 ##### Python
 Test the installation by going to tests folder and launch the test.py file:
 ```
-cd Faster_OpenCV_4_Raspberry_Pi/tests/python_opencv_test
+cd RaspberryPi3B_Modules_Installed/tests/python_opencv_test
 python test.py
 ```
 
