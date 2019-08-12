@@ -5,7 +5,6 @@ I'm newbie on Raspberry and fork this repo for save all modules that I have used
 Install if necessary through
 ```
 sudo apt-get install wpasupplicant
-
 ```
 After that, open wpa_supplicant file:
 ```
