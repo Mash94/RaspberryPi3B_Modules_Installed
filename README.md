@@ -4,9 +4,21 @@ I'm newbie on Raspberry and fork this repo for save all modules that I have used
 ## 3.5” RPi Display(MPI3501):
 Driver install:
 ```
+sudo rm -rf LCD-show
+git clone https://github.com/goodtft/LCD-show.git
+chmod -R 755 LCD-show
 cd LCD-show/
-sudo ./rotate.sh 90
+```
+Change Image HDMI to 3.5"
+```
+cd LCD-show/
 sudo ./LCD35-show
+```
+
+Change Image LCD to HDMI
+```
+cd LCD-show/
+sudo ./LCD35-hdmi
 ```
 If the driver is already installed, execute the following command
 ```
