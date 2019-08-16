@@ -1,6 +1,25 @@
 # Raspberry Pi 3B - Raspbian Buster
 I'm newbie on Raspberry and fork this repo for save all modules that I have used on Raspberry and they work.
 
+## VNC via Ethernet
+### Connecting your Raspberry Pi to your Laptop Display
+Server on Raspberry
+Cliente on PC
+
+Connect Raspberry to PC via Ethernet
+Find the IP address of your Raspberry Pi, vias SSH. 
+```
+ifconfig
+```
+```
+169.254.7.221
+```
+Go to the Network and Sharing Center on your laptop.
+Set IP on Ethernet adaptor for example.
+```
+169.254.7.221
+```
+
 ## 3.5” RPi Display(MPI3501):
 Driver install:
 ```
