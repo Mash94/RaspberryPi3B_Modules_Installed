@@ -1,6 +1,20 @@
 # Raspberry Pi 3B - Raspbian Buster
 I'm newbie on Raspberry and fork this repo for save all modules that I have used on Raspberry and they work.
 
+##3.5” RPi Display(MPI3501):
+Driver install:
+```
+cd LCD-show/
+sudo ./rotate.sh 90
+sudo ./LCD35-show
+```
+If the driver is already installed, execute the following command
+```
+cd LCD-show/
+sudo ./rotate.sh 90
+```
+
+
 ## WIFI
 Install if necessary through
 ```
