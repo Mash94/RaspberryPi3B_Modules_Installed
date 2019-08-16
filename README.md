@@ -18,7 +18,7 @@ sudo ./LCD35-show
 Change Image LCD to HDMI
 ```
 cd LCD-show/
-sudo ./LCD35-hdmi
+sudo ./LCD-hdmi
 ```
 If the driver is already installed, execute the following command
 ```
