@@ -17,8 +17,9 @@ ifconfig
 Go to the Network and Sharing Center on your laptop.
 Set IP on Ethernet adaptor for example.
 ```
-169.254.7.221
+169.254.7.1
 ```
+Open VNC on your PC and search Raspberry's IP
 
 ## 3.5” RPi Display(MPI3501):
 Driver install:
