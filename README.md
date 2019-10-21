@@ -83,6 +83,12 @@ sudo dhclient wlan0
 sudo apt-get install python-matplotlib
 ```
 
+## Jupyter Notebook
+```
+pip3 install --upgrade --force-reinstall --no-cache-dir jupyter
+sudo apt install jupyter-notebook
+```
+
 ## Faster OpenCV
 Leverage all your CPUs power in OpenCV by using **TBB**, **Neon** and **VFPV3** libraries.
 
